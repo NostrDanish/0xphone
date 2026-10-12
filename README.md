@@ -1,11 +1,17 @@
 # 0xPhone
 
 > One device · Three execution environments · One AI interface.
+> **As flexible as Omarchy — basically OmarchyMobile.**
 
 **0xPhone** is a concept (working name) for an AI-native, privacy-first mobile platform:
 **Omarchy Mobile**-style experience, **GrapheneOS-grade security ambitions**, and a
 **Ubuntu Touch-inspired** look and feel — without pretending that forking any of those
 projects automatically transfers their properties.
+
+The flexibility thesis: **any phone should be able to get it.** The full OS ships on
+reference hardware, an AI-assisted porting pipeline adapts it to any unlockable
+device, and the companion app brings the experience to stock phones. See
+[docs/omarchy-mobile-vision.md](docs/omarchy-mobile-vision.md).
 
 ```
 ┌────────────────────────── 0xPhone ──────────────────────────┐
@@ -37,6 +43,7 @@ See [`docs/roadmap.md`](docs/roadmap.md).
 
 | Doc | Contents |
 |---|---|
+| [docs/omarchy-mobile-vision.md](docs/omarchy-mobile-vision.md) | The flexibility thesis: device tiers + AI-assisted porting pipeline |
 | [docs/architecture.md](docs/architecture.md) | System architecture, execution environments, distributed compute topology |
 | [docs/android-or-linux.md](docs/android-or-linux.md) | The foundational decision: hardened Android (A) vs Linux-first (B) |
 | [docs/hermes-service.md](docs/hermes-service.md) | Hermes as a restricted OS service; task routing & delegation protocol |
